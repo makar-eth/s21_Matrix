@@ -3,7 +3,7 @@ CFLAGS=-Wall -Werror -Wextra -g -std=c11
 RM=rm -rf
 EXECUTABLE=matrix_test
 UNAME = $(shell uname -s)
-LIB = s21_string.a
+LIB = s21_matrix.a
 TST_LIBS = -lcheck -lm -lpthread -fprofile-arcs
 
 ifeq ($(UNAME),Darwin)

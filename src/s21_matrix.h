@@ -1,6 +1,10 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 
-#define SUCESS 1
+#define EPS 1E-7
+
+#define SUCCESS 1
 #define FAILURE 1
 
 enum STATUS { OK = 0, ERROR = 1, CALC_ERROR = 2};
