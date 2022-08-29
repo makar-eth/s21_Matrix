@@ -33,7 +33,7 @@ $(LIB): s21_matrix.o
 	$(CC) -c $< -o $@
 
 clean:
-	$(RM) *.a *.o
+	$(RM) *.a *.o *.gcno *.gcda
 
 fclean: clean
 	$(RM) $(EXECUTABLE)
